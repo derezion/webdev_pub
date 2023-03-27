@@ -1,0 +1,14 @@
+/* (5) Take the code from “Hands-On Exercise (3)” and give the div a background image by
+using the following CSS declarations:
+○ background-image: url("path/to/some/image.png");
+○ background-size: cover;
+○ background-repeat: no-repeat; */
+div {
+    width: 100px;
+    height: 200px;
+    background-color:blueviolet;
+    border: 20px groove yellow;
+    background-image: url(../../../html-css-bootcamp-master/html-css-bootcamp-master/000_img/surf.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
