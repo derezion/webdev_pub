@@ -1,0 +1,36 @@
+/* Directions use the following n-th child css selectors
+
+first
+last
+even
+odd
+nth-child(n)
+only child
+nth-child(anb) */
+li:nth-child(even) {
+    color: aquamarine;
+}
+
+li:nth-child(odd) {
+    color: olivedrab;
+}
+
+li:first-child {
+    color: firebrick;
+}
+
+li:last-child {
+    color: lawngreen;
+}
+
+li:nth-child(10) {
+    color: teal;
+}
+
+li:only-child {
+    color: orangered; 
+}
+
+li:nth-child(4n+4) {
+    color: fuchsia;
+}
