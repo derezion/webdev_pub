@@ -1,0 +1,26 @@
+body {
+    font-size: 24px;
+    text-align: left;
+    border: 10px solid darkred;
+}
+
+/* order matters */
+/* LVHA */
+/* Link Visited Hover Active */
+/* Mneumonic device: LiVe HA (laughter) */
+
+a:link {
+    color: lawngreen;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: honeydew;
+}
+
+a:active {
+    color: aqua;
+}
