@@ -1,0 +1,14 @@
+/* use typography css selectors:
+
+first letter
+first line (css selector) */
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+}
+
+p::first-line {
+    text-transform: uppercase;
+}
