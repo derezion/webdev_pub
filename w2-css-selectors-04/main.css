@@ -1,0 +1,23 @@
+/* use the following nested selectors
+
+div p (Targets the div p?)
+div > p (Direct Descendant)
+div ~ p (Sibling selector)
+div + p (Immediate sibling.., Like a +1 in real life?)
+use it with the html doc in this folder */
+
+div p {
+    color: saddlebrown;
+}
+
+div > p {
+    color: gray;
+}
+
+div ~ p {
+    color: teal;
+}
+
+div + p {
+    color: peru;
+}
