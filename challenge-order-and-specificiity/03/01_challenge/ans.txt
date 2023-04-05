@@ -15,10 +15,13 @@ ul#summer-drinks li {
 = =
 ANS (with specificity): 
 Whiskey: blue, (CORRECT) 
-Wheat Beer: black, (INCORRECT)
+Wheat Beer: black, (INCORRECT should be blue)
 Mint Julip: black (INCORRECT should be blue)
 
 .favorite (0-1-0) (Cprrect)
 ul#summer-drinks li {1-0-2) (CORRECT)
- 
+
+
+Must have been the fact that Wheat Beer and Mint Julip are list items under a ul#summer-drinks
+
 credit: Chris Coyier

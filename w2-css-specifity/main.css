@@ -12,3 +12,39 @@ in your css
 add width, height, border to all divs, ps, h1s
 create 10 css selectors using various selectors, have each selector change "color", 
 and then in comments put above the selector the specificity of that selector */
+/* 4-4-23 Attempt */
+/* 
+DID NOT HAVE EXPECTED OUTPUT
+h1 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hotpink;
+    display: block;
+} */
+h1 {
+    width: auto;
+    margin: auto;
+    border: 1px solid hotpink;
+}
+
+/*
+DID NOT HAVE EXPECTED OUTPUT
+div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid darkblue;
+} */
+p {
+    width: auto;
+    height: 20px;
+    margin: auto;
+    border: darkblue;
+}
+
+/* 
+DID NOT HAVE EXPECTED OUTPUT
+p .warning {
+    width: 30px;
+    height: 30px;
+    border: 1px solid palegreen;
+} */
