@@ -12,39 +12,85 @@ in your css
 add width, height, border to all divs, ps, h1s
 create 10 css selectors using various selectors, have each selector change "color", 
 and then in comments put above the selector the specificity of that selector */
-/* 4-4-23 Attempt */
-/* 
-DID NOT HAVE EXPECTED OUTPUT
+/* 4-4-23 Attempt, 4-5-23 */
+/* DID NOT HAVE EXPECTED OUTPUT:
 h1 {
     width: 30px;
     height: 30px;
     border: 1px solid hotpink;
     display: block;
 } */
+
+/* CSS specificity of 0-0-1 */
 h1 {
     width: auto;
+    height: 35px;
     margin: auto;
     border: 1px solid hotpink;
+    margin: 10px;
 }
 
-/*
-DID NOT HAVE EXPECTED OUTPUT
+/* DID NOT HAVE EXPECTED OUTPUT:
 div {
     width: 30px;
     height: 30px;
     border: 1px solid darkblue;
 } */
-p {
+
+/* CSS specificity of 0-0-2 */
+div p {
     width: auto;
     height: 20px;
-    margin: auto;
-    border: darkblue;
+    margin: 10px;
+    border: solid darkblue;
 }
 
-/* 
-DID NOT HAVE EXPECTED OUTPUT
-p .warning {
+/* DID NOT HAVE EXPECTED OUTPUT: 
+p .warning...*/
+
+/* CSS specificity of 0-1-0 */
+.warning {
     width: 30px;
     height: 30px;
     border: 1px solid palegreen;
-} */
+    margin: 20px;
+}
+
+/* CSS specificity of 1-0-1 */
+h4 #wild {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(228, 140, 40);
+    margin: 20px;
+    padding: auto;
+}
+
+/* CSS specificity of 0-1-2 */
+ul li.cool {
+    color: skyblue;
+}
+
+/* CSS specificity of 0-1-2 */
+ul li.hot {
+    color: hotpink;
+}
+
+/* CSS specificity of 0-1-2 */
+ul li.living {
+    color: green;
+}
+
+/* CSS specificity of 0-1-2 */
+ul li.doomed {
+    color: darkred;
+}
+
+/* CSS specificity of 0-0-2 */
+ul>li {
+    color: lightcoral;
+}
+
+/* CSS specificity of 0-0-1 */
+li:last-child {
+    color: lawngreen;
+}
