@@ -1,0 +1,7 @@
+p .blue .red
+ANS: RED (CORRECT)
+p {color: black;}
+.blue {color: blue;}
+.red {color: red;}
+#red {color: red;}
+#mas {color: green;}

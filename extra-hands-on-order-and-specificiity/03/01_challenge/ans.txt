@@ -1,0 +1,24 @@
+<ul id="summer-drinks">
+    <li class="favorite">Whiskey and Ginger Ale</li>
+    <li>Wheat Beer</li>
+    <li>Mint Julip</li>
+</ul>
+.favorite {
+  color: red;
+}
+
+
+ul#summer-drinks li {
+   color: blue;
+}
+
+= =
+ANS (with specificity): 
+Whiskey: blue, (CORRECT) 
+Wheat Beer: black, (INCORRECT)
+Mint Julip: black (INCORRECT should be blue)
+
+.favorite (0-1-0) (Cprrect)
+ul#summer-drinks li {1-0-2) (CORRECT)
+ 
+credit: Chris Coyier
