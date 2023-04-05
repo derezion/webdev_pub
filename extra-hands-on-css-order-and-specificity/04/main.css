@@ -1,3 +1,15 @@
 /* ● (4) Write some CSS that has two rules applying to the same element. The first rule
 should use an element selector and the second rule should use an attribute. Calculate
 the CSS specificity of each rule to explain which rule won. */
+
+/* As an element selector, this code has a specificity of 0-0-1 */
+h4 {
+    border: 5px solid fuchsia;
+}
+
+/* As an attribute selector, this code has a specificity of 0-1-0 */
+[title~="rectangle"] {
+    border: 5px solid yellow;
+}
+
+/* The CSS selector with the yellow border won becaues it had higher specifcity. */
